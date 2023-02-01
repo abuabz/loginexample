@@ -5,54 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body >
     <div class="maindiv">
-        <input type="text" placeholder="USERNAME" class="username"><br>
-        <input type="password" placeholder="PASSWORD"><br><br>
-        <a href="https://www.instagram.com/abu_abz__/"><button class="button1">LOGIN</button></a><br><br><br>
+        <form action="">
+
+            <input onchange="emaill()" id="mail1" type="text" placeholder="EMAIL" class="username" type="email" required><br>
+            <input onchange="passs()" id="pass" type="password" placeholder="PASSWORD (8 character)" required><br><br>
+        <a href="https://www.instagram.com/abu_abz__/"><button  id="btn-login" class="button1">LOGIN</button></a><br><br><br>
+        </form>
+        
 
         <label  style="margin-left: 106px;
-        font-size: 20px;">Not registered?</label><label style="color: #65bd49;">Create an account</label>
+        font-size: 20px;">Not registered?</label><label style="color: #03164c;">Create an account</label>
 
     </div>
+    <script src="script.js"></script>
 </body>
 <style>
-    body{
-        background-color: #65bd49;
-    }
-    .maindiv{
-        margin: auto;
-        width: 450px;
-        height: 400px;
-        background-color: rgb(255, 255, 255);
-        margin-top: 160px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    input{
-        padding-block: 18px;
-        margin-left:29px;
-        width: 82%;
-        margin-top: 24px;
-        font-size: 23px;
-        font-family: monospace;
-        padding-left: 22px;
-        font-size: ui-rounded;
-        background-color: #e0dddd;
-        border: none;
-    }
-    .username{
-        margin-top: 50px;
-    }
-    .button1{
-        padding-block: 18px;
-    margin-left: 27px;
-    width: 88%;
-    color: white;
-    background: green;
-    border: none;
-    font-family: monospace;
-    font-size: 23px;
-    }
+   
 </style>
 </html>
