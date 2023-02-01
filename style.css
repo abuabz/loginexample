@@ -1,0 +1,50 @@
+body{
+    background-color: #0e2874a8;
+}
+.maindiv{
+    margin: auto;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    padding-block: 18px;
+    margin-left:29px;
+    width: 82%;
+    margin-top: 24px;
+    font-size: 23px;
+    font-family: monospace;
+    padding-left: 22px;
+    font-size: ui-rounded;
+    background-color: #e0dddd;
+    border: none;
+}
+.username{
+    margin-top: 50px;
+}
+.button1{
+    padding-block: 18px;
+    margin-left: 27px;
+    width: 88%;
+    color: white;
+    background: #062069;
+    border: none;
+    font-family: monospace;
+    font-size: 23px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button1:hover{
+    padding-block: 18px;
+    margin-left: 27px;
+    width: 88%;
+    color: white;
+    background: #02113b;
+    border: none;
+    font-family: monospace;
+    font-size: 23px;
+    border-radius: 2px;
+    cursor: pointer;
+}
